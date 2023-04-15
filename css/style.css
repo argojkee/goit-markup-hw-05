@@ -70,7 +70,7 @@ font-family: 'Roboto', sans-serif;
     height: 24px;
     background-color: #E7E9FC;
     border-radius: 50%;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition-property: background-color;
     transition-duration: var(--timing-duration);
@@ -874,6 +874,7 @@ img {
             display: inline-block;
             padding-top: 40px;
             padding-left: 32px;
+            padding-right: 32px;
             top: 100%;
             left: 0;
             background-color: rgba(77, 90, 229, 0.5);
@@ -888,7 +889,6 @@ img {
         }
 
         .text-info {
-            max-width: 296px;
             font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
