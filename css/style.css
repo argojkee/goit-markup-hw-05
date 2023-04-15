@@ -290,7 +290,7 @@ img {
             margin-right: 0;
         }
 
-        .site-nav-link::after {
+        .current::after {
             position: absolute;
             content: '';
 
@@ -301,16 +301,11 @@ img {
             border-radius: 2px;
             left: 0;
             bottom: 0;
-            opacity: 0;
-            transition-property: opacity;
-            transition-duration: var(--timing-duration);
-            transition-timing-function: var(--timing-animation);
+            
+
         }
 
-        .site-nav-link:hover::after {
-            opacity: 1;
-        }
-
+       
       
 
         
