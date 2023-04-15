@@ -43,6 +43,7 @@ font-family: 'Roboto', sans-serif;
             transition-timing-function: var(--timing-animation);
 }
 .backdrop.is-hidden {
+    position: absolute;
     opacity: 0;
     pointer-events: none;
 }
@@ -58,16 +59,23 @@ font-family: 'Roboto', sans-serif;
     background-color: #FCFCFC;
 }
 
+
+
+
 .modal-window-button {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 24px;
+    right: 24px;
     width: 24px;
     height: 24px;
     background-color: #E7E9FC;
     border-radius: 50%;
-    border-color: #FCFCFC;
+    border: none;
+    
 }
+
+
+
 
 .modal-window-icon {
     color: #2E2F42;
