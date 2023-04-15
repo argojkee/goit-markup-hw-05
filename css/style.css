@@ -54,14 +54,18 @@ font-family: 'Roboto', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform var(--timing-duration) var(--timing-animation);
 
     min-width: 408px;
     min-height: 576px;
     background-color: #FCFCFC;
 }
 
+.backdrop.is-hidden .modal-window {
+    transform: translate(-50%, -50%) scale(0);
 
+}
 
 
 .modal-window-button {
