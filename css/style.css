@@ -35,17 +35,19 @@ font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 100%;
 
-
+    visibility: visible;
     background: rgba(46, 47, 66, 0.4);
-
         transition-property: opacity;
             transition-duration: var(--timing-duration);
             transition-timing-function: var(--timing-animation);
+            transition: visibility 0s, var(--timing-duration);
 }
+
 .backdrop.is-hidden {
-    
+    visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    transition: visibility 0s, var(--timing-duration);
 }
 
 .modal-window {
