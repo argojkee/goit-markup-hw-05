@@ -62,9 +62,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 .backdrop.is-hidden .modal-window {
-    transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%)  scale(1.5);
 
 }
+
 
 
 .modal-window-button {
